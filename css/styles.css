@@ -1,3 +1,7 @@
+body {
+	background-color: #F7F7FA !important;
+}
+
 body .row .top-bar {
 	background-color: #222;
 }
@@ -12,10 +16,16 @@ body .row .top-bar {
 			float: left;
 			padding-right: 10px;
 			margin-top: 10px;
+			padding-left: 0 !important;
 		}
 
 			body .row .top-bar .container ul.social li a {
 				color: #fff;
+				font-size: 17px;
+			}
+
+			body .row .top-bar .container ul.social li a:hover {
+				color: #3891ea;
 			}
 
 body .row .top-bar .container .pull-right form.navbar-form .form-group  input.search_field {
@@ -23,7 +33,7 @@ body .row .top-bar .container .pull-right form.navbar-form .form-group  input.se
 	background-color: #3891ea;
 	border: 0;
 	border-radius: 0;
-	width: 100%;
+	width: 101%;
 	line-height: 40px;
 	font-size: 14px;
 	color: #ffffff;
@@ -39,4 +49,47 @@ body .row .top-bar .container .pull-right form.navbar-form .search_submit {
 	height: 18px;
 	width: 17px;
 	margin-top: -34px;
+}
+
+body .row .fullwidth-container .container header nav.navbar .container-fluid .navbar-header .logo {
+	font-family: "Grenouille";
+	font-size: 35px;
+}
+
+body .row .fullwidth-container .container header nav.navbar .container-fluid .collapse .navbar-nav {
+	margin: 0;
+}
+
+	body .row .fullwidth-container .container header nav.navbar .container-fluid .collapse .navbar-nav  li {
+		position: relative;
+		list-style: none;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+		border-bottom: 2px solid #ffffff;
+	}
+
+	body .row .fullwidth-container .container header nav.navbar .container-fluid .collapse .navbar-nav  li:hover {
+		background-color: #3891ea;
+		border-bottom: 2px solid #146bc1;
+	}
+
+		body .row .fullwidth-container .container header nav.navbar .container-fluid .collapse .navbar-nav  li a {
+			line-height: 3;
+		}
+
+		body .row .fullwidth-container .container header nav.navbar .container-fluid .collapse .navbar-nav  li a:hover {
+			color: #fff;
+		}
+
+		body .row .fullwidth-container .container header nav.navbar .container-fluid .collapse .navbar-nav  li.dropdown.active a {
+			background-color: #3891ea;
+			border-bottom: 2px solid #146bc1;
+			color: #fff;
+		}
+
+body .row .fullwidth-container.header {
+	background-color: #fff;
 }
