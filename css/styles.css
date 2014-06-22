@@ -172,6 +172,18 @@ body .row .main_content {
 			margin-top: 10px !important;
 		}
 
+	body .row .main_content .row .col-lg-4 .row .image_post {
+		border-top: 4px solid #9b58b5;
+	}
+
+	body .row .main_content .row .col-lg-4 .row .video_post {
+		border-top: 4px solid #f1c40f;
+	}
+
+		body .row .main_content .row .col-lg-4 .row .video_post .post_content video {
+			margin: -22px 0 0 -20px;
+		}
+
 	body .row .main_content .row .col-lg-4 .row .post_excerpt {
 		background-color: #ffffff;
 		margin-bottom: 80px;
