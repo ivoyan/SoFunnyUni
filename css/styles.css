@@ -349,6 +349,10 @@ body .row .main_content {
 				border-bottom: 1px solid #eee;
 			}
 
+			body .row .main_content .row aside .sidebar .row .follow_us.widget ul li {
+				border-bottom: 0;
+			}
+
 			body .row .main_content .row aside .sidebar .row .widget ul li:last-child {
 				border-bottom: 0;
 			}
@@ -362,6 +366,15 @@ body .row .main_content {
 					color: #3891ea;
 				}
 
-				body .row .main_content .row aside .sidebar .row .widget ul.social-links li a i {
-					position: absolute;
+				body .row .main_content .row aside .sidebar .row .widget ul.social-links li a {
+					padding: 20px;
+					margin-left: 40px;
+				}
+
+					body .row .main_content .row aside .sidebar .row .widget ul.social-links li a .numbers {
+						font-size: 18px;
+					}
+
+				body .row .main_content .row aside .sidebar .row .widget ul.social-links li svg {
+					float: left;
 				}
