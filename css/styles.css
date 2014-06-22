@@ -54,7 +54,7 @@ body .row .top-bar .container .pull-right form.navbar-form .form-group  input.se
 		color:#146bc1; 
 	}
 
-body .row .top-bar .container .pull-right form.navbar-form .form-group  input::-moz-placeholder { font-style:italic; text-decoration:overline; letter-spacing:3px; color:#999; } {
+body .row .top-bar .container .pull-right form.navbar-form .form-group  input::-moz-placeholder {
 	color: #fff;
 }
 
