@@ -184,6 +184,17 @@ body .row .main_content {
 			margin: -22px 0 0 -20px;
 		}
 
+		body .row .main_content .row .col-lg-4 .row .video_post h2 {
+			border-bottom: 0 !important;
+		}
+
+			body .row .main_content .row .col-lg-4 .row .video_post h2 a:hover,
+			body .row .main_content .row .col-lg-4 .row .video_post .post_content .meta i {
+				color: #f1c40f !important;
+			}
+
+
+
 	body .row .main_content .row .col-lg-4 .row .post_excerpt {
 		background-color: #ffffff;
 		margin-bottom: 80px;
