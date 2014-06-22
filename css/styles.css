@@ -314,6 +314,7 @@ body .row .main_content {
 	body .row .main_content .row aside .sidebar .row .widget {
 		background-color: #fff;
 		border: 1px solid #eee;
+		margin-bottom: 50px;
 	}
 
 		body .row .main_content .row aside .sidebar .row .widget .widget_title {
@@ -339,6 +340,7 @@ body .row .main_content {
 
 		body .row .main_content .row aside .sidebar .row .widget ul {
 			padding: 0 15px;
+			position: relative;
 		}
 
 			body .row .main_content .row aside .sidebar .row .widget ul li {
@@ -358,4 +360,8 @@ body .row .main_content {
 
 				body .row .main_content .row aside .sidebar .row .widget ul li a:hover {
 					color: #3891ea;
+				}
+
+				body .row .main_content .row aside .sidebar .row .widget ul.social-links li a i {
+					position: absolute;
 				}
